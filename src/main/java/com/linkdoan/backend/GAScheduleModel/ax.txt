@@ -1,0 +1,374 @@
+
+#prof
+	id = ID000
+	name = Aleida Goforth
+#end
+
+#prof
+	id = ID001
+	name = Patrick Perales
+#end
+
+#prof
+	id = ID002
+	name = Felipe Franco
+#end
+
+#prof
+	id = ID003
+	name = Eric Gerald
+#end
+
+#prof
+	id = ID004
+	name = Clay Abrams
+#end
+
+#prof
+	id = ID005
+	name = Morris Moen
+#end
+
+#prof
+	id = ID006
+	name = Leonardo Archuleta
+#end
+
+#prof
+	id = ID007
+	name = Jimmy Dexter
+#end
+
+#prof
+	id = ID008
+	name = Leigh Amato
+#end
+
+#prof
+	id = ID009
+	name = Silvana Hoffmann
+#end
+
+#course
+	id = 0000310
+	name = Xác suất thống kê
+#end
+
+#course
+	id = 0000311
+	name = Phương pháp tính
+#end
+
+#course
+	id = 0000511
+	name = Marketing căn bản
+#end
+
+#course
+	id = 0000703
+	name = Tiếng Anh cơ bản (GE 3)
+#end
+
+#course
+	id = 0000704
+	name = Tiếng Anh cơ bản (GE 4) 
+#end
+
+#course
+	id = 0221501
+	name = Kỹ năng lập kế hoạch và tổ chức
+#end
+
+#room
+	name = 101
+	lab = true
+	size = 30
+	distance = 0
+#end
+
+#room
+	name = 102
+	lab = true
+	size = 45
+	distance = 0
+#end
+
+#room
+	name = 103
+	lab = false
+	size = 60
+	distance = 0
+#end
+
+#room
+	name = 104
+	lab = false
+	size = 90
+	distance = 0
+#end
+
+#room
+	name = 105
+	lab = false
+	size = 90
+	distance = 0
+#end
+
+#group
+	id = 1
+	name = no name
+	size = 37
+#end
+
+#group
+	id = 2
+	name = no name
+	size = 37
+#end
+
+#group
+	id = 3
+	name = no name
+	size = 37
+#end
+
+#group
+	id = 4
+	name = no name
+	size = 37
+#end
+
+#group
+	id = 5
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 6
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 7
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 8
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 9
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 10
+	name = no name
+	size = 35
+#end
+
+#group
+	id = 11
+	name = no name
+	size = 35
+#end
+
+#group
+	id = 12
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 13
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 14
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 15
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 16
+	name = no name
+	size = 45
+#end
+
+#group
+	id = 17
+	name = no name
+	size = 45
+#end
+
+#class
+	id = 1
+	professor = ID000
+	course = 0000310
+	duration = 2
+	group = 1
+	subjectClassId = 2020200003100
+#end
+
+#class
+	id = 2
+	professor = ID002
+	course = 0000310
+	duration = 2
+	group = 2
+	subjectClassId = 2020200003101
+#end
+
+#class
+	id = 3
+	professor = ID004
+	course = 0000310
+	duration = 2
+	group = 3
+	subjectClassId = 2020200003102
+#end
+
+#class
+	id = 4
+	professor = ID008
+	course = 0000310
+	duration = 2
+	group = 4
+	subjectClassId = 2020200003103
+#end
+
+#class
+	id = 5
+	professor = ID000
+	course = 0000311
+	duration = 3
+	group = 5
+	subjectClassId = 2020200003110
+	lab = true
+#end
+
+#class
+	id = 6
+	professor = ID000
+	course = 0000311
+	duration = 3
+	group = 6
+	subjectClassId = 2020200003111
+	lab = true
+#end
+
+#class
+	id = 7
+	professor = ID000
+	course = 0000311
+	duration = 3
+	group = 7
+	subjectClassId = 2020200003112
+	lab = true
+#end
+
+#class
+	id = 8
+	professor = ID002
+	course = 0000311
+	duration = 3
+	group = 8
+	subjectClassId = 2020200003113
+#end
+
+#class
+	id = 9
+	professor = ID008
+	course = 0000311
+	duration = 3
+	group = 9
+	subjectClassId = 2020200003114
+#end
+
+#class
+	id = 10
+	professor = ID008
+	course = 0000511
+	duration = 2
+	group = 10
+	subjectClassId = 2020200005110
+#end
+
+#class
+	id = 11
+	professor = ID002
+	course = 0000511
+	duration = 2
+	group = 11
+	subjectClassId = 2020200005111
+#end
+
+#class
+	id = 12
+	professor = ID008
+	course = 0000703
+	duration = 3
+	group = 12
+	subjectClassId = 2020200007030
+#end
+
+#class
+	id = 13
+	professor = ID002
+	course = 0000703
+	duration = 3
+	group = 13
+	subjectClassId = 2020200007031
+#end
+
+#class
+	id = 14
+	professor = ID004
+	course = 0000704
+	duration = 3
+	group = 14
+	subjectClassId = 2020200007040
+#end
+
+#class
+	id = 15
+	professor = ID008
+	course = 0000704
+	duration = 3
+	group = 15
+	subjectClassId = 2020200007041
+#end
+
+#class
+	id = 16
+	professor = ID004
+	course = 0221501
+	duration = 2
+	group = 16
+	subjectClassId = 2020202215010
+#end
+
+#class
+	id = 17
+	professor = ID002
+	course = 0221501
+	duration = 2
+	group = 17
+	subjectClassId = 2020202215011
+#end
+
