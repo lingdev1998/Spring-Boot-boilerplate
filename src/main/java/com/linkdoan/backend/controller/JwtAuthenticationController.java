@@ -24,7 +24,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@CrossOrigin
 public class JwtAuthenticationController {
 
     @Autowired
@@ -32,10 +31,6 @@ public class JwtAuthenticationController {
 
     @Autowired
     private JwtTokenUtil jwtTokenUtil;
-    @Qualifier("userRepository")
-
-    @Autowired
-    private UserRepository userRepository;
 
     @Autowired
     UserService userService ;

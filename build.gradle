@@ -20,11 +20,6 @@ apply plugin: "io.spring.dependency-management"
 
 group = "com.linkdoan"
 version = "0.1.0"
-configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
-}
 
 dependencies {
 

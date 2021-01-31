@@ -2,6 +2,7 @@ package com.linkdoan.backend.config;
 
 import com.linkdoan.backend.service.UserService;
 import io.jsonwebtoken.ExpiredJwtException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -18,8 +19,11 @@ import java.io.IOException;
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 
+    @Autowired
     private UserService jwtUserDetailsService;
 
+
+    @Autowired
     private JwtTokenUtil jwtTokenUtil;
 
     public JwtRequestFilter(UserService jwtUserDetailsService, JwtTokenUtil jwtTokenUtil) {

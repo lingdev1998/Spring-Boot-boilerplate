@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Component("beanName1")
+@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
     User findByUsername(String username);
